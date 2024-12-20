@@ -10,7 +10,7 @@ from Adafruit_LCD1602 import Adafruit_CharLCD
 
 
 device_id = "BP12" #Change based on machine number
-serverUrl = 'http://192.168.1.86:3000' #Change based on IP address of server
+serverUrl = 'http://192.168.1.84:3000' #Change based on IP address of server
 activitiesToTrack = ['break', 'downtime', 'setup'] #Change based on activities to track. First 3 activities will be assigned to buttons A, B, C respectively
 
 PCF8574_address = 0x27  # I2C address of the PCF8574 chip.
